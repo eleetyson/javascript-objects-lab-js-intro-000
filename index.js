@@ -1,7 +1,10 @@
 let recipes = {type:"pasta", ingredient:"flour"};
 
-function updateObjectWithKeyAndValue(recipes, keyAdd, valueAdd) {
-  recipes.keyAdd = valueAdd;
-  console.log(recipes);
+function updateObjectWithKeyAndValue(object, key, value) {
+  recipes.key = value;
   return recipes;
+}
+
+function updateObjectWithKeyAndValue() {
+  
 }
