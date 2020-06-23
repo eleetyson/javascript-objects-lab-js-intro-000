@@ -6,6 +6,6 @@ function updateObjectWithKeyAndValue(recipes, keyAdd, valueAdd) {
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(recipes, keyAdd, valueAdd) {
-  recipes.keyAdd = valueAdd;
+  recipes[keyAdd] = valueAdd;
   return recipes1;
 }
