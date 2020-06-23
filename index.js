@@ -1,4 +1,4 @@
-let recipes = {prop1 : 1, prop2 : 2};
+let recipes = {type:"pasta", ingredient:"flour"};
 
 function updateObjectWithKeyAndValue(recipes, keyAdd, valueAdd) {
   recipes.keyAdd = valueAdd;
